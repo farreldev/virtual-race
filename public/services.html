@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Virtual Run</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top header" id="nav_bar">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/logo.svg" alt="" height="54">
+            </a>
+            <button class="navbar-toggler menu-bar" type="button" data-bs-toggle="collapse" data-bs-target=""
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pricing.html">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="events.html">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav second_nav mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            ID
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarDarkDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">ID</a></li>
+                            <li><a class="dropdown-item" href="#">EN</a></li>
+                            <li><a class="dropdown-item" href="#">GB</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="sidenav">
+        <div class="nav">
+            <h2>Main Menu</h2>
+            <div class="menu">
+                <a class="submenu" href="index.html">Home</a>
+                <a class="submenu" href="about.html">About Us</a>
+                <a class="submenu" href="services.html">Services</a>
+                <a class="submenu" href="Pricing.html">Pricing</a>
+                <a class="submenu" href="events.html">Events</a>
+                <a class="submenu" href="contact.html">Contact</a>
+                <button class="vr-button btn btn-primary rounded" onclick="location.href='login.html'">Masuk</button>
+                <button class="vr-button btn btn-primary rounded" onclick="location.href='login.html'">Daftar</button>
+            </div>
+        </div>
+    </div>
+    <div class="sidenav-overlay"></div>
+    <div class="px-lg-5 banner-full bg-service h-100vh">
+        <div class="container">
+
+            <div class="row align-items-center h-100vh" style="padding-top:90px;">
+                <div class="col-lg-5 py-4">
+                    <h2 class="vr-titleheader">SERVICES</h2>
+                    <nav aria-label="breadcrumb" class="mt-3">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="#" class="text-muted">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Contact</li>
+                        </ol>
+                    </nav>
+                    <p class="vr-head fst-italic">Our Services</p>
+                    <p class="text-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit
+                        amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim
+                        praesent elementum</p>
+                </div>
+                <div class="col offset-lg-2">
+                    <img src="assets/img/mcbook.png" class="w-100 banner-img" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-light py-5">
+        <div class="container p-lg-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h3 class="vr-primary">The Best Services</h3>
+                    <p class="text-normal">You'll place heaven forth good him dominion give you're all <br> brought creepeth
+                        itself second waters.</p>
+                </div>
+                <div class="col-lg-6 service-block">
+                    <div class="row row-cols-2">
+                        <div class="col service-items my-3">
+                            <figure>
+                                <img src="assets/img/Services/1.png" class="w-100" alt="">
+                            </figure>
+                            <div class="centered">
+                                <img src="assets/img/Icons/icon1.svg" alt="">
+                                <h4 class="my-3">Website</h4>
+                            </div>
+                        </div>
+
+                        <div class="col service-items my-3">
+                            <figure>
+                                <img src="assets/img/Services/2.png" class="w-100" alt="">
+                            </figure>
+                            <div class="centered">
+                                <img src="assets/img/Icons/icon2.svg" alt="">
+                                <h4 class="my-3">System Registration</h4>
+                            </div>
+                        </div>
+
+                        <div class="col service-items my-3">
+                            <figure>
+                                <img src="assets/img/Services/3.png" class="w-100" alt="">
+                            </figure>
+                            <div class="centered">
+                                <img src="assets/img/Icons/icon3.svg" alt="">
+                                <h4 class="my-3">Payment Gateway</h4>
+                            </div>
+                        </div>
+
+                        <div class="col service-items my-3">
+                            <figure>
+                                <img src="assets/img/Services/4.png" class="w-100" alt="">
+                            </figure>
+                            <div class="centered">
+                                <img src="assets/img/Icons/icon4.svg" alt="">
+                                <h4 class="my-3">Virtual Race System</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-inner p-lg-5" style="background-image: url(./assets/img/bg-inner.png);">
+        <div class="container p-5">
+            <div class="text-center text-white">
+                <h4>Any plan to start a project</h4>
+                <h1 class="mb-5">Our Experts always ready to work with you</h1>
+                <button class="btn vr-button btn-lg" type="button">Join Now</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-inner">
+        <div class="container p-5">
+            <div class="swiper-container clients-logo">
+                <div class="swiper-wrapper d-flex align-items-center ">
+                    <div class="swiper-slide text-center"><img src="assets/img/Clients/1.png" alt="" width="120"></div>
+                    <div class="swiper-slide text-center"><img src="assets/img/Clients/2.png" alt="" width="120"></div>
+                    <div class="swiper-slide text-center"><img src="assets/img/Clients/3.png" alt="" width="120"></div>
+                    <div class="swiper-slide text-center"><img src="assets/img/Clients/4.png" alt="" width="120"></div>
+                    <div class="swiper-slide text-center"><img src="assets/img/Clients/1.png" alt="" width="120"></div>
+                    <div class="swiper-slide text-center"><img src="assets/img/Clients/2.png" alt="" width="120"></div>
+                    <div class="swiper-slide text-center"><img src="assets/img/Clients/3.png" alt="" width="120"></div>
+                    <div class="swiper-slide text-center"><img src="assets/img/Clients/4.png" alt="" width="120"></div>
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bd-footer pt-5 mt-5 footer">
+        <div class="container pt-5">
+            <div class="row pt-6 justify-content-between align-items-center main-footer">
+                <div class="col-12 col-lg-4 mb-3">
+                    <a class="d-inline-flex align-items-center mb-2 text-decoration-none" href="/">
+                        <img src="assets/img/logo.svg" width="90" alt="">
+                    </a>
+                    <p class="text-white-low">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit
+                        amet luctus venenatis, lectus magna fringilla urna, porttitor</p>
+                </div>
+                <div class="col-12 col-lg-3 offset-lg-1">
+                    <h3 class="text-white mb-4">Website</h3>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a class="text-white-low text-decoration-none link-dark" href="/">About</a></li>
+                        <li class="mb-2"><a class="text-white-low text-decoration-none link-dark" href="/">Services</a></li>
+                        <li class="mb-2"><a class="text-white-low text-decoration-none link-dark" href="/">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg-3 mb-3">
+                    <h3 class="text-white mb-4">Get the newsletter.</h3 class="text-white">
+                    <p class="text-white-low">Subscribe to our newsletter & stay updated</p>
+                    <form action="">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control form-input" placeholder="Enter your mail"
+                                aria-label="Enter your mail" aria-describedby="basic-addon2">
+                            <span class="input-group-text" id="basic-addon2">
+                                <span class="iconify" data-icon="bx:bx-right-arrow-alt" data-inline="false"
+                                    data-width="24" data-height="24"></span>
+                            </span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- <hr> -->
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col me-auto">
+                    <ul class="list-inline">
+                        <li class="list-inline-item text-white-low">© 2021, virtualrace.com. All right reserved.</li>
+                        <li class="list-inline-item"><a href="" class="text-muted text-decoration-none"> Privacy</a>
+                        </li>
+                        <li class="list-inline-item"><a href="" class="text-muted text-decoration-none"> Terms &
+                                Information</a></li>
+                    </ul>
+                </div>
+                <div class="col text-end">
+                    <ul class="list-inline">
+                        <li class="list-inline-item text-white-low">Follow Us:</li>
+                        <li class="list-inline-item text-white-low">
+                            <a class="text-white-low" aria-current="page" href="#">
+                                <span class="iconify" data-icon="bx:bxl-facebook" data-inline="false"></span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item text-white-low">
+                            <a class="text-white-low" aria-current="page" href="#">
+                                <span class="iconify" data-icon="bx:bxl-twitter" data-inline="false"></span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item text-white-low">
+                            <a class="text-white-low" aria-current="page" href="#">
+                                <span class="iconify" data-icon="bx:bxl-instagram" data-inline="false"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+    </script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".clients-logo", {
+            spaceBetween: 30,
+            slidesPerView: 4,
+            mousewheel: {
+                invert: false,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+                "@0.00": {
+                    slidesPerView: 1,
+                    spaceBetween: 10,
+                },
+                "@0.75": {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                "@1.00": {
+                    slidesPerView: 1,
+                    spaceBetween: 40,
+                },
+                "@1.50": {
+                    slidesPerView: 4,
+                    spaceBetween: 50,
+                },
+            },
+        });
+    </script>
+</body>
+
+</html>

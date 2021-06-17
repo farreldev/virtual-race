@@ -1,0 +1,149 @@
+@media only screen and (max-width: 500px) {
+    .services {
+        padding: 15px !important;
+    }
+
+    .vr-titleheader {
+        font-size: 70px;
+        line-height: 70px;
+
+        &.header-feature {
+            font-size: 70px !important;
+            line-height: normal;
+        }
+
+        &.title-services {
+            right: 0;
+            line-height: normal;
+        }
+    }
+
+    .section-innr {
+        &::before {
+            font-size: 70px;
+        }
+    }
+
+    .features {
+        &::before {
+            display: none;
+        }
+    }
+
+    .banner-inside {
+        height: 100% !important;
+        top: 90px;
+
+        .text-inline {
+            height: auto;
+            margin: 0px;
+            transform: rotate(0deg);
+            width: auto;
+
+            &::before {
+                display: none;
+            }
+        }
+    }
+
+    .vr-heading {
+        font-size: 32px;
+        line-height: normal;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .services {
+        padding: 15px !important;
+
+        .services-icon {
+            width: 70px;
+            height: 70px;
+            line-height: 70px;
+            margin-bottom: 1rem;
+        }
+    }
+
+    .countdown {
+        .banner-title {
+            margin-top: 0;
+        }
+
+        .banner-times {
+            ul {
+                padding-left: 0;
+
+                li {
+                    font-size: 1.125rem;
+                    padding: .75rem;
+                }
+
+                li span {
+                    font-size: 3.375rem;
+                }
+            }
+        }
+    }
+
+    .vr-titleheader {
+        font-size: 80px;
+
+        &.header-feature {
+            font-size: 80px !important;
+            line-height: normal;
+        }
+
+        &.title-services {
+            right: 0;
+            line-height: normal;
+        }
+    }
+
+    .section-innr,
+    .section-events {
+        &::before {
+            font-size: 80px;
+        }
+    }
+
+    .features {
+        &::before {
+            display: none;
+        }
+
+        .img-apps {
+            display: none;
+        }
+    }
+
+    .banner-inside {
+        height: 100% !important;
+
+        &::before {
+            background-size: cover;
+            left: 0;
+        }
+
+        .social-links {
+            flex-direction: row-reverse !important;
+        }
+
+        .vr-title {
+            font-size: 5rem;
+            line-height: 60px;
+        }
+    }
+
+    .banner-full {
+        &.bg-service {
+            &::before {
+                background-size: cover;
+                right: 0;
+            }
+        }
+    }
+
+    footer {
+        background-position: top;
+    }
+}

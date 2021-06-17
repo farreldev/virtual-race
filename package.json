@@ -1,0 +1,12 @@
+{
+  "name": "vrace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass --watch public/assets/scss/style.scss public/assets/css/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,21 @@
+@media only screen and (max-width: 500px) {
+  .services {
+    padding: 0px !important;
+  }
+
+  .vr-titleheader {
+    font-size: 70px;
+  }
+  .vr-titleheader.header-feature {
+    font-size: 70px !important;
+    line-height: normal;
+  }
+
+  .section-innr::before {
+    font-size: 70px;
+  }
+
+  .features::before {
+    display: none;
+  }
+}
