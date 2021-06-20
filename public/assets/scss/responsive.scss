@@ -86,10 +86,10 @@
     }
 
     .vr-titleheader {
-        font-size: 80px;
+        font-size: 70px;
 
         &.header-feature {
-            font-size: 80px !important;
+            font-size: 70px !important;
             line-height: normal;
         }
 
@@ -102,7 +102,7 @@
     .section-innr,
     .section-events {
         &::before {
-            font-size: 80px;
+            font-size: 70px;
         }
     }
 
@@ -142,8 +142,128 @@
             }
         }
     }
+    .noshow {
+        display: none !important;
+    }
+    .vr-textbold {
+        font-size: 26px;
+        line-height: normal;
+    }
 
     footer {
         background-position: top;
+    }
+}
+
+@media screen and (max-width: 900px) and (min-width: 769px) {
+
+    .services {
+        padding: 15px !important;
+
+        .services-icon {
+            width: 70px;
+            height: 70px;
+            line-height: 70px;
+            margin-bottom: 1rem;
+        }
+    }
+    .banner-inside {
+        height: 100%;
+    }
+
+    .countdown {
+        .banner-title {
+            margin-top: 0;
+        }
+
+        .banner-times {
+            ul {
+                padding-left: 0;
+
+                li {
+                    font-size: 1.125rem;
+                    padding: .75rem;
+                }
+
+                li span {
+                    font-size: 3.375rem;
+                }
+            }
+        }
+    }
+
+    .vr-titleheader {
+        font-size: 120px;
+
+        &.header-feature {
+            font-size: 120px !important;
+            line-height: normal;
+        }
+
+        &.title-services {
+            right: 0;
+            line-height: normal;
+        }
+    }
+
+    .section-innr,
+    .section-events {
+        &::before {
+            font-size: 120px;
+        }
+
+        .swiper-slide {
+            .events-carousel {
+                .card-title {
+                    h4 {
+                        font-size: 32px;
+                        line-height: normal;
+                        text-shadow: 0px 3px 8px rgb(255 255 255);
+                        max-width: 100%;
+                    }
+                }
+            }
+
+            .top-content {
+                left: auto;
+                width: 80%;
+            }
+        }
+    }
+
+    .card-teams {
+        .card-title {
+            left: 15%;
+            top: auto;
+            bottom: 5%;
+            h4 {
+                max-width: 100%;
+            }
+            .position {
+                color: #FF4D00;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: normal;
+                background: #f2f3f4cc;
+                display: inline-block;
+                padding: 0px 15px;
+                border-radius: 20px;
+            }
+        }
+    }
+
+    .height-inner {
+        padding-top: 6rem;
+    }
+
+    .noshow {
+        display: none !important;
+    }
+    .vr-textbold {
+        font-size: 26px;
+        line-height: normal;
+    }
+    .pos-update {
+        display: inline!important;
     }
 }
