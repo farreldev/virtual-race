@@ -111,6 +111,7 @@ h3 {
 
 .sidenav.active {
     left: 0;
+    padding-bottom: 30px;
 }
 
 .sidenav-overlay {
@@ -389,8 +390,8 @@ h3 {
         .top-content {
             position: absolute;
             right: 25px;
+            left: 40%;
             top: 20px;
-            width: 45%;
             z-index: 3;
 
             p {
@@ -541,6 +542,7 @@ h3 {
     border-radius: 100px;
     border-radius: 100px;
     padding: 3px 10px;
+    white-space: nowrap;
 }
 
 .text-normal {
@@ -743,7 +745,6 @@ h3 {
         .swiper-button-prev:after {
             font-size: 16px;
             color: #fff;
-            background-color: #00225B;
         }
 
         .swiper-wrapper {
@@ -791,6 +792,7 @@ h3 {
     .vr-apps-list {
         img {
           width: 100px;
+          max-width: 100%;
         }
       }
 }
