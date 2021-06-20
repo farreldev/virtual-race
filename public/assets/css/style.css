@@ -111,6 +111,7 @@ h3 {
 
 .sidenav.active {
   left: 0;
+  padding-bottom: 30px;
 }
 
 .sidenav-overlay {
@@ -500,6 +501,7 @@ h3 {
   border-radius: 100px;
   border-radius: 100px;
   padding: 3px 10px;
+  white-space: nowrap;
 }
 
 .text-normal {
@@ -683,7 +685,6 @@ h3 {
 .banner-full .clients-logo .swiper-button-prev:after {
   font-size: 16px;
   color: #fff;
-  background-color: #00225B;
 }
 .banner-full .clients-logo .swiper-wrapper {
   display: -webkit-box;
@@ -727,6 +728,7 @@ h3 {
 }
 .vr-apps .vr-apps-list img {
   width: 100px;
+  max-width: 100%;
 }
 
 .m-20 {
@@ -1112,7 +1114,110 @@ h3 {
     right: 0;
   }
 
+  .noshow {
+    display: none !important;
+  }
+
+  .vr-textbold {
+    font-size: 26px;
+    line-height: normal;
+  }
+
   footer {
     background-position: top;
+  }
+}
+@media screen and (max-width: 900px) and (min-width: 769px) {
+  .services {
+    padding: 15px !important;
+  }
+  .services .services-icon {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    margin-bottom: 1rem;
+  }
+
+  .banner-inside {
+    height: 100%;
+  }
+
+  .countdown .banner-title {
+    margin-top: 0;
+  }
+  .countdown .banner-times ul {
+    padding-left: 0;
+  }
+  .countdown .banner-times ul li {
+    font-size: 1.125rem;
+    padding: 0.75rem;
+  }
+  .countdown .banner-times ul li span {
+    font-size: 3.375rem;
+  }
+
+  .vr-titleheader {
+    font-size: 120px;
+  }
+  .vr-titleheader.header-feature {
+    font-size: 120px !important;
+    line-height: normal;
+  }
+  .vr-titleheader.title-services {
+    right: 0;
+    line-height: normal;
+  }
+
+  .section-innr::before,
+.section-events::before {
+    font-size: 120px;
+  }
+  .section-innr .swiper-slide .events-carousel .card-title h4,
+.section-events .swiper-slide .events-carousel .card-title h4 {
+    font-size: 32px;
+    line-height: normal;
+    text-shadow: 0px 3px 8px white;
+    max-width: 100%;
+  }
+  .section-innr .swiper-slide .top-content,
+.section-events .swiper-slide .top-content {
+    left: auto;
+    width: 80%;
+  }
+
+  .card-teams .card-title {
+    left: 15%;
+    top: auto;
+    bottom: 5%;
+  }
+  .card-teams .card-title h4 {
+    max-width: 100%;
+  }
+  .card-teams .card-title .position {
+    color: #FF4D00;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: normal;
+    background: #f2f3f4cc;
+    display: inline-block;
+    padding: 0px 15px;
+    border-radius: 20px;
+  }
+
+  .height-inner {
+    padding-top: 6rem;
+  }
+
+  .noshow {
+    display: none !important;
+  }
+
+  .vr-textbold {
+    font-size: 26px;
+    line-height: normal;
+  }
+
+  .pos-update {
+    display: inline !important;
   }
 }
