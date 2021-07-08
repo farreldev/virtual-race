@@ -107,7 +107,7 @@
     <div class="my-5">
         <div class="container px-4">
             <div class="events-block">
-                <div class="row">
+                <div class="row mb-5">
                     <div class="col-lg-5">
                         <h1 class="vr-primary mb-4">Our Events</h1>
                         <p class="text-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit <br> ut aliquam,
@@ -129,7 +129,29 @@
                         </form>
                     </div>
                 </div>
-                <div class="banner-full ebanner my-5" style="height: 350px;">
+
+                <div class="swiper-container banner-events-cube mb-5">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                          <figure>
+                              <img src="assets/img/bne-1.jpg" />
+                          </figure>
+                      </div>
+                      <div class="swiper-slide">
+                          <figure>
+                              <img src="assets/img/bne-2.jpg" />
+                          </figure>
+                      </div>
+                      <div class="swiper-slide">
+                          <figure>
+                              <img src="assets/img/bne-3.jpg" />
+                          </figure>
+                      </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+
+                <!-- <div class="banner-full ebanner my-5" style="height: 350px;">
                     <div class="row align-items-center py-5 h-100">
                         <div class="col-lg-9">
                         </div>
@@ -137,7 +159,7 @@
                             <div class="text-white text-center mb-3">
                                 <h3 class="text-white">9, 2021 9:00 AM</h3>
                             </div>
-                            <!-- <div class="mt-auto"> -->
+                            <div class="mt-auto">
                             <div>
                                 <button class="btn vr-button blue btn-lg" type="button">Join Now <span class="iconify"
                                         data-icon="bx:bx-right-arrow-alt" data-inline="false" data-width="24"
@@ -145,7 +167,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <div class="bg-light my-4">
                     <div class="row align-items-center justify-content-between p-3">
                         <div class="col-lg-3">
@@ -166,22 +188,18 @@
                                     <input class="form-control vr-form-input" list="datalistOptions"
                                         id="exampleDataList" placeholder="Other Option">
                                     <datalist id="datalistOptions">
-                                        <option value="San Francisco">
-                                        <option value="New York">
-                                        <option value="Seattle">
-                                        <option value="Los Angeles">
-                                        <option value="Chicago">
+                                        <option value="Option 1">
+                                        <option value="Option 2">
+                                        <option value="Option 3">
                                     </datalist>
                                 </div>
                                 <div class="sorting w-100">
-                                    <input class="form-control vr-form-input" list="datalistOptions"
+                                    <input class="form-control vr-form-input" list="sortOptions"
                                         id="exampleDataList" placeholder="Sort By">
-                                    <datalist id="datalistOptions">
-                                        <option value="San Francisco">
-                                        <option value="New York">
-                                        <option value="Seattle">
-                                        <option value="Los Angeles">
-                                        <option value="Chicago">
+                                    <datalist id="sortOptions">
+                                        <option value="Range Area">
+                                        <option value="Paid">
+                                        <option value="Free">
                                     </datalist>
                                 </div>
                             </div>
@@ -197,7 +215,7 @@
             <div class="row row-cols-1 row-cols-md-4 g-4">
                 <div class="col">
                     <div class="card border-0 shadow h-100">
-                        <a href="event-details.html">
+                        <a href="event-details.html" class="event-thumbnail">
                             <img src="https://source.unsplash.com/daily?tech"
                                 class="card-img-top" alt="...">
                         </a>
@@ -221,7 +239,7 @@
                 </div>
                 <div class="col">
                     <div class="card border-0 shadow h-100">
-                        <a href="event-details.html">
+                        <a href="event-details.html" class="event-thumbnail">
                             <img src="https://source.unsplash.com/daily?sport"
                             class="card-img-top" alt="...">
                         </a>
@@ -245,7 +263,7 @@
                 </div>
                 <div class="col">
                     <div class="card border-0 shadow h-100">
-                        <a href="event-details.html">
+                        <a href="event-details.html" class="event-thumbnail">
                             <img src="https://source.unsplash.com/daily?marathon"
                                 class="card-img-top" alt="...">
                         </a>
@@ -269,7 +287,7 @@
                 </div>
                 <div class="col">
                     <div class="card border-0 shadow h-100">
-                        <a href="event-details.html">
+                        <a href="event-details.html" class="event-thumbnail">
                             <img src="https://source.unsplash.com/daily?jogging"
                                 class="card-img-top" alt="...">
                         </a>
@@ -293,7 +311,7 @@
                 </div>
                 <div class="col">
                     <div class="card border-0 shadow h-100">
-                        <a href="event-details.html">
+                        <a href="event-details.html" class="event-thumbnail">
                             <img src="https://source.unsplash.com/daily?running"
                                 class="card-img-top" alt="...">
                         </a>
@@ -317,7 +335,7 @@
                 </div>
                 <div class="col">
                     <div class="card border-0 shadow h-100">
-                        <a href="event-details.html">
+                        <a href="event-details.html" class="event-thumbnail">
                             <img src="https://source.unsplash.com/daily?swimming"
                                 class="card-img-top" alt="...">
                         </a>
@@ -341,7 +359,7 @@
                 </div>
                 <div class="col">
                     <div class="card border-0 shadow h-100">
-                        <a href="event-details.html">
+                        <a href="event-details.html" class="event-thumbnail">
                             <img src="https://source.unsplash.com/daily?sea"
                                 class="card-img-top" alt="...">
                         </a>
@@ -365,7 +383,7 @@
                 </div>
                 <div class="col">
                     <div class="card border-0 shadow h-100">
-                        <a href="event-details.html">
+                        <a href="event-details.html" class="event-thumbnail">
                             <img src="https://source.unsplash.com/daily"
                                 class="card-img-top" alt="...">
                         </a>
@@ -498,6 +516,20 @@
 
     <!-- Initialize Swiper -->
     <script>
+        var swiper = new Swiper(".banner-events-cube", {
+        effect: "cube",
+        grabCursor: true,
+        autoHeight: true,
+        cubeEffect: {
+          shadow: true,
+          slideShadows: true,
+          shadowOffset: 30,
+          shadowScale: 0.94,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
     </script>
 </body>
 

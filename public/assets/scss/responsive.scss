@@ -3,6 +3,11 @@
         padding: 15px !important;
     }
 
+    .events .card .event-thumbnail {
+        max-height: 220px;
+        overflow: hidden;
+    }
+
     .vr-titleheader {
         font-size: 70px;
         line-height: 70px;
@@ -62,6 +67,23 @@
             line-height: 70px;
             margin-bottom: 1rem;
         }
+    }
+
+    .img-article {
+        flex-direction: column;
+        article {
+            order: 2;
+        }
+        figure {
+            margin-bottom: 30px;
+            order: 1;
+            padding-left: 0;
+        }
+    }
+
+    .events .card .event-thumbnail {
+        max-height: 270px;
+        overflow: hidden;
     }
 
     .countdown {
