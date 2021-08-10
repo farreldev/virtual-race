@@ -22,7 +22,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top header" id="nav_bar">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top header" id="nav_bar">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="assets/img/logo.svg" alt="" height="54">
@@ -44,6 +44,12 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="pricing.html">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="events.html">Events</a>
@@ -81,7 +87,9 @@
                 <a class="submenu" href="index.html">Home</a>
                 <a class="submenu" href="about.html">About Us</a>
                 <a class="submenu" href="services.html">Services</a>
-                <a class="submenu" href="Pricing.html">Pricing</a>
+                <a class="submenu" href="pricing.html">Pricing</a>
+                <a class="submenu" href="portfolio.html">Portfolio</a>
+                <a class="submenu" href="gallery.html">Gallery</a>
                 <a class="submenu" href="events.html">Events</a>
                 <a class="submenu" href="contact.html">Contact</a>
                 <button class="vr-button btn btn-primary rounded" onclick="location.href='login.html'">Masuk</button>
@@ -90,7 +98,31 @@
         </div>
     </div>
     <div class="sidenav-overlay"></div>
-    <div class="px-5 banner-full banner-about height-inner">
+    <div class="px-lg-5 banner-full bn-about h-100vh">
+		<div class="container">
+			<div class="row align-items-center h-100vh" style="padding-top:90px;">
+				<div class="col-lg-5 py-4">
+                    <div class="heading-left">
+                        <h2 class="vr-titleheader">ABOUT</h2>
+                        <nav aria-label="breadcrumb" class="mt-3">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="#" class="text-muted">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">About</li>
+                            </ol>
+                        </nav>
+                        <p class="vr-head fst-italic">About Us</p>
+                        <p class="text-normal justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit
+                            amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim
+                            praesent elementum</p>
+                    </div>
+				</div>
+				<div class="col offset-lg-1">
+					<img src="assets/img/sprint.png" class="w-100 banner-img" alt="" style="max-width: 450px;">
+				</div>
+			</div>
+		</div>
+	</div>
+    <!-- <div class="px-5 banner-full banner-about height-inner">
         <div class="d-flex align-items-center h-100vh">
             <div class="container py-5 text-center">
                 <h3 class="text-white vr-heading">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam
@@ -103,9 +135,9 @@
                 </nav>
             </div>
         </div>
-    </div>
+    </div> -->
 
-    <div class="history">
+    <!-- <div class="history">
         <div class="container px-5 pb-5">
             <h1 class="vr-titleheader history">HISTORY</h1>
             <div class="descriptions">
@@ -116,27 +148,38 @@
                     urna, porttitor rhoncus dolor purus non enim.</p>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <div class="visi bg-light">
         <div class="container">
+            <div class="row mb-5">
+                <div class="col">
+                    <div class="descriptions">
+                        <h4 class="vr-head mb-3 text-center">Our Story</h4>
+                        <p class="vr-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit
+                            amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim. Lorem
+                            ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus magna fringilla
+                            urna, porttitor rhoncus dolor purus non enim.</p>
+                    </div>
+                </div>
+            </div>
             <div class="row d-flex align-items-center">
-                <div class="col-lg-6">
+                <div class="col-lg-6 mb-5 mb-lg-0">
                     <!-- <img src="assets/img/woman.png" class="w-100" alt=""> -->
                     <div class="figure-visi" title="vision">
                         <img src="assets/img/visi.jpg" class="w-100" alt="">
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 mb-5 mb-lg-0">
                     <!-- <div class="history-icon">
                         <img src="assets/img/Icons/icon5.svg" alt="">
                     </div> -->
                     <h3 class="vr-primary">Our Vision</h3>
-                    <p class="vr-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus
+                    <p class="vr-text justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus
                         sit amet luctus venenatis, lectus magna fringilla urna, porttitor</p>
-                    <p class="vr-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus
+                    <p class="vr-text justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus
                         sit amet luctus venenatis, lectus magna fringilla urna, porttitor</p>
-                    <p class="vr-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus
+                    <p class="vr-text justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus
                         sit amet luctus venenatis, lectus magna fringilla urna, porttitor</p>
 
                 </div>
@@ -152,9 +195,9 @@
                         <img src="assets/img/Icons/icon6.svg" alt="">
                     </div> -->
                     <h3 class="vr-primary">Our Mission</h3>
-                    <p class="vr-text mid text-blue-default font-semibold">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus
+                    <p class="vr-text justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus
                         sit amet luctus venenatis, lectus magna fringilla urna, porttitor</p>
-                    <ul class="vr-text">
+                    <ul class="vr-text vr-list">
                         <li>are unaffected by this style</li>
                         <li>will still show a bullet</li>
                         <li>Purus sit amet luctus venenatis, lectus</li>
@@ -180,7 +223,7 @@
                 </div>
                 <div class="col offset-lg-1 mt-4">
                     <h2 class="mb-4 vr-primary">We doing focused on Provide and Organized Virtual Event</h2>
-                    <p class="vr-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit
+                    <p class="vr-text justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit
                         amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim.
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus magna
                         fringilla urna, porttitor rhoncus dolor purus non enim</p>
@@ -214,12 +257,12 @@
             <div class="row">
                 <div class="col-lg-6 pt-6 my-5">
                     <h2 class="mb-4 vr-primary">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam</h2>
-                    <p class="vr-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit
+                    <p class="vr-text justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit
                         amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim.
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus magna
                         fringilla urna, porttitor rhoncus dolor purus non enim</p>
                     <div class="my-3">
-                        <ul class="vr-primary list-unstyled">
+                        <ul class="vr-list list-unstyled">
                             <li class="mb-4 d-flex align-items-center">
                                 <img src="assets/img/Icons/icon7.svg" alt="" width="60"><span class="d-inline-block mgl-10">Easy to process events and the Membership</span>
                             </li>
@@ -239,7 +282,7 @@
         </div>
     </div>
 
-    <div class="">
+    <section class="team">
         <div class="container">
             <h1 class="vr-titleheader">OUR TEAM</h1>
             <div class="row pb-5">
@@ -317,12 +360,12 @@
 
             </div>
         </div>
-    </div>
+    </section>
 
     <footer class="bd-footer pt-5 footer">
         <div class="container pt-5">
-            <div class="row pt-6 justify-content-between align-items-center main-footer">
-                <div class="col-12 col-lg-4 col-md-4 mb-3 pt-5">
+            <div class="row pt-5 justify-content-between main-footer">
+                <div class="col-12 col-lg-4 col-md-4 mb-3">
                     <a class="d-inline-flex align-items-center mb-2 text-decoration-none" href="/">
                         <img src="assets/img/logo.svg" width="90" alt="">
                     </a>
@@ -359,9 +402,9 @@
                 <div class="col me-auto">
                     <ul class="list-inline">
                         <li class="list-inline-item text-white-low">© 2021, virtualrace.com. All right reserved.</li>
-                        <li class="list-inline-item"><a href="" class="text-muted text-decoration-none"> Privacy</a>
+                        <li class="list-inline-item"><a href="privacy.html" class="text-muted text-decoration-none"> Privacy</a>
                         </li>
-                        <li class="list-inline-item"><a href="" class="text-muted text-decoration-none"> Terms &
+                        <li class="list-inline-item"><a href="terms.html" class="text-muted text-decoration-none"> Terms &
                                 Information</a></li>
                     </ul>
                 </div>

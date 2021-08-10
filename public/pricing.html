@@ -22,7 +22,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top header" id="nav_bar">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top header" id="nav_bar">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="assets/img/logo.svg" alt="" height="54">
@@ -44,6 +44,12 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="pricing.html">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="events.html">Events</a>
@@ -81,7 +87,9 @@
                 <a class="submenu" href="index.html">Home</a>
                 <a class="submenu" href="about.html">About Us</a>
                 <a class="submenu" href="services.html">Services</a>
-                <a class="submenu" href="Pricing.html">Pricing</a>
+                <a class="submenu" href="pricing.html">Pricing</a>
+                <a class="submenu" href="portfolio.html">Portfolio</a>
+                <a class="submenu" href="gallery.html">Gallery</a>
                 <a class="submenu" href="events.html">Events</a>
                 <a class="submenu" href="contact.html">Contact</a>
                 <button class="vr-button btn btn-primary rounded" onclick="location.href='login.html'">Masuk</button>
@@ -90,7 +98,31 @@
         </div>
     </div>
     <div class="sidenav-overlay"></div>
-    <div class="px-5 banner-full banner-pricing height-inner">
+    <div class="px-lg-5 banner-full bn-price h-100vh">
+		<div class="container">
+			<div class="row align-items-center h-100vh" style="padding-top:90px;">
+				<div class="col-lg-5 py-4">
+                    <div class="heading-left">
+                        <h2 class="vr-titleheader">PRICING</h2>
+                        <nav aria-label="breadcrumb" class="mt-3">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="#" class="text-muted">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Pricing</li>
+                            </ol>
+                        </nav>
+                        <p class="vr-head fst-italic">Price List</p>
+                        <p class="text-normal justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit
+                            amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim
+                            praesent elementum</p>
+                    </div>
+				</div>
+				<div class="col offset-lg-2 d-flex justify-content-center">
+					<img src="assets/img/man.png" class="w-auto banner-img" alt="" style="max-height: 550px;">
+				</div>
+			</div>
+		</div>
+	</div>
+    <!-- <div class="px-5 banner-full banner-pricing height-inner">
         <div class="d-flex align-items-center h-100vh">
             <div class="container py-5 text-center">
                 <h3 class="text-white vr-heading">Pricing</h3>
@@ -102,7 +134,7 @@
                 </nav>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <div class="my-5">
         <div class="container px-4 text-center">
@@ -119,7 +151,7 @@
                                         <div class="card-header border-0" style="background: linear-gradient(85.73deg, #0D2F88 0%, #2B5EE1 100%);
                                         border-radius: 5px 5px 0px 0px;">
                                             <h4 class="my-1 font-weight-normal">Standard</h4>
-                                            <p class="mb-2">
+                                            <p class="mb-2 text-white">
                                                 &lt; 1000 Participant</p> </div> <div class="card-body pb-4">
                                                     <h1 class="block-caption"><small>Rp</small>9.9<small>Jt</small></h1>
                                                     <span class="vr-outline"><b>Registrasi</b> 5% Minimal 3Jt</span>
@@ -153,7 +185,7 @@
                                         <div class="card-header border-0" style="background: linear-gradient(85.73deg, #124E61 0%, #15AACB 100%);
                                         border-radius: 5px 5px 0px 0px;">
                                             <h4 class="my-1 font-weight-normal">Middle</h4>
-                                            <p class="mb-2"> &gt; 1000 Participant</p>
+                                            <p class="mb-2 text-white"> &gt; 1000 Participant</p>
                                         </div>
                                         <div class="card-body pb-4">
                                             <h1 class="block-caption"><small>Rp</small>13.9<small>Jt</small></h1>
@@ -184,7 +216,7 @@
                                         <div class="card-header border-0" style="background: linear-gradient(85.73deg, #B03B08 0%, #C49C03 100%);
                                         border-radius: 5px 5px 0px 0px;">
                                             <h4 class="my-1 font-weight-normal">Pro</h4>
-                                            <p class="mb-2"> &gt; 3000 Participant</p>
+                                            <p class="mb-2 text-white"> &gt; 3000 Participant</p>
                                         </div>
                                         <div class="card-body pb-4">
                                             <h1 class="block-caption"><small>Rp</small>19.9<small>Jt</small></h1>
@@ -219,7 +251,7 @@
                                         <div class="col">
                                             <div class="text-lg-end">
                                                 <h3 class="text-white">Contact Us</h3>
-                                                <p>for special quotations.</p>
+                                                <p class="text-white">for special quotations.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -234,10 +266,10 @@
         </div>
     </div>
 
-    <footer class="bd-footer pt-5 mt-5 footer">
+    <footer class="bd-footer pt-5 footer">
         <div class="container pt-5">
-            <div class="row pt-6 justify-content-between align-items-center main-footer">
-                <div class="col-12 col-lg-4 mb-3 pt-5">
+            <div class="row pt-5 justify-content-between main-footer">
+                <div class="col-12 col-lg-4 mb-3">
                     <a class="d-inline-flex align-items-center mb-2 text-decoration-none" href="/">
                         <img src="assets/img/logo.svg" width="90" alt="">
                     </a>
@@ -274,9 +306,9 @@
                 <div class="col me-auto">
                     <ul class="list-inline">
                         <li class="list-inline-item text-white-low">© 2021, virtualrace.com. All right reserved.</li>
-                        <li class="list-inline-item"><a href="" class="text-muted text-decoration-none"> Privacy</a>
+                        <li class="list-inline-item"><a href="privacy.html" class="text-muted text-decoration-none"> Privacy</a>
                         </li>
-                        <li class="list-inline-item"><a href="" class="text-muted text-decoration-none"> Terms &
+                        <li class="list-inline-item"><a href="terms.html" class="text-muted text-decoration-none"> Terms &
                                 Information</a></li>
                     </ul>
                 </div>

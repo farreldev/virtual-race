@@ -1,0 +1,45 @@
+@mixin shortBreakpointMax($max) {
+	@media (max-width: #{$max}px) {
+	  @content;
+	}
+ }
+ 
+ @mixin shortBreakpointMin($min) {
+	@media (min-width: #{$min}px) {
+	  @content;
+	}
+ }
+
+ @mixin flexingGrid($child, $kol, $mr, $mb) {
+	// Mixing ini digunakan di parentnya
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	list-style: none; // jika elem parentnya ul
+	#{$child} {
+	  margin-right: $mr;
+	  margin-bottom: #{$mb};
+	  width: ((100% - (($kol - 1) * $mr)) / $kol);
+	  &:nth-child(#{$kol}n) {
+		 margin-right: 0;
+	  }
+	}
+ }
+
+@mixin flexOwnGrid($child, $gap, $kol) {
+	// Mixing ini digunakan di parentnya
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	list-style: none; // jika elem parentnya ul
+	gap: #{$gap}px;
+	#{$child} {
+		width: calc((100% + #{$gap}px * (1 - #{$kol})) / #{$kol});
+	}
+ }
+ 

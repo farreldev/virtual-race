@@ -1,6 +1,13 @@
 .relative { position: relative; }
 .absolute { position: absolute; }
 
+.bg-blue {
+   background-color: #2665c8;
+}
+.txt-blue {
+   color: #2665c8;
+}
+
 @for $i from 1 through 10 {
    .top-#{$i * 5} { 
       top: #{$i * 5}px;
@@ -58,6 +65,9 @@
 .capitalize {
    text-transform: capitalize;
 }
+.uppercase {
+   text-transform: uppercase;
+}
 
 .no-underline {
    text-decoration: none;
@@ -73,4 +83,41 @@
 
 .text-blue-default {
    color: #00225B;
+}
+
+.justify {
+   text-align: justify;
+}
+
+.fz-1 {
+   font-size: 1rem;
+}
+.fz-2 {
+   font-size: 1.25rem;
+}
+.fz-3 {
+   font-size: 1.5rem;
+}
+.fz-4 {
+   font-size: 1.75rem;
+}
+.fz-5 {
+   font-size: 2rem;
+}
+.fz-6 {
+   font-size: 2.25rem;
+}
+
+.fw-3 {
+   font-weight: 300;
+}
+
+.fw-4 {
+   font-weight: 400;
+}
+.fw-5 {
+   font-weight: 500;
+}
+.fw-6 {
+   font-weight: 600;
 }

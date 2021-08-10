@@ -1,6 +1,6 @@
 <svg width="684" height="708" viewBox="0 0 684 708" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M318.365 708L0.998413 708L342.631 9.4325e-05L660 0.000183105L318.365 708Z" fill="url(#paint0_linear)" fill-opacity="0.1"/>
-<path d="M342.365 708L24.9984 708L366.631 9.4325e-05L684 0.000183105L342.365 708Z" fill="#FFCC29"/>
+<path d="M342.365 708L24.9984 708L366.631 9.4325e-05L684 0.000183105L342.365 708Z" fill="#2BD9FE"/>
 <defs>
 <linearGradient id="paint0_linear" x1="42.5" y1="708" x2="330.499" y2="9.86429e-05" gradientUnits="userSpaceOnUse">
 <stop stop-color="#716229" stop-opacity="0"/>
@@ -8,3 +8,5 @@
 </linearGradient>
 </defs>
 </svg>
+
+<!-- D9DAB0 -->
